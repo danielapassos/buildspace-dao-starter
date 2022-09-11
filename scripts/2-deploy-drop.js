@@ -5,11 +5,11 @@ import { readFileSync } from "fs";
 (async () => {
   try {
     const editionDropAddress = await sdk.deployer.deployEditionDrop({
-      // The collection's name, ex. CryptoPunks
+      // The collection's name
       name: "Thoux Membership",
       // A description for the collection.
       description: "A DAO for web3 education.",
-      // The image that will be held on our NFT! The fun part :).
+      // The image that will be held on our NFT!
       image: readFileSync("scripts/assets/artifact.gif"),
 
       primary_sale_recipient: AddressZero,
