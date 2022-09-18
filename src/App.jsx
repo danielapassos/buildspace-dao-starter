@@ -13,9 +13,9 @@ const App = () => {
   // Initialize our editionDrop contract
   const editionDrop = useEditionDrop("0x736d1f699237C5e04b1B235bc7EDc8f40BC215fD");
   // Initialize our token contract
-  const token = useToken("INSERT_TOKEN_ADDRESS")
+  const token = useToken("0x21D0c15166A6158904cB7c21E85c7790BE3BB5d5")
   // Initialize our vote contract
-  const vote = useVote("INSERT_VOTE_ADDRESS");
+  const vote = useVote("0xA80179AdDcE6A318E759A0956AdCA1889c132CA1");
 
   // State variable for us to know if user has our NFT.
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
