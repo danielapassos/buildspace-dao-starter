@@ -181,6 +181,7 @@ const App = () => {
     return (
       <div className="landing">
         <h1>Welcome to Thoux</h1>
+        <p></p>
         <button onClick={connectWithMetamask} className="btn-hero">
           Connect your wallet
         </button>
