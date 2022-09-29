@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #6F6F6F;
-  color: #fff;
+  background-color: ##F0F0F0;
+  color: #black;
   overflow-x: hidden;
 }
 #root {
@@ -116,12 +116,12 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: #0A5CD8;
   color: #fff;
   border: none;
   font-weight: bold;
   font-family: inherit;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 1.5rem;
   text-transform: uppercase;
   border-radius: 3rem;
   font-size: 1.2rem;
